@@ -85,7 +85,7 @@ function gerarNumeroSecreto() {
    }
 }
 
-function nd() {
+function reset() {
     numeroSecreto = gerarNumeroSecreto();
     console.log (`o novo numero secreto é: ${numeroSecreto}`)
     console.log (`esses numeros não serão repetidos : ${listaDeNumerosEscolhidos}`);
